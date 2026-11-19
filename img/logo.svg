@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <radialGradient id="plum" cx="38%" cy="32%" r="75%">
+      <stop offset="0" stop-color="#c58bff"/>
+      <stop offset="0.55" stop-color="#8b3fd9"/>
+      <stop offset="1" stop-color="#4a1a8c"/>
+    </radialGradient>
+    <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff3b0"/>
+      <stop offset="0.5" stop-color="#ffb02e"/>
+      <stop offset="1" stop-color="#ff5b2e" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g transform="rotate(35 60 60)">
+    <!-- flame -->
+    <path d="M48 86 Q60 120 72 86 Q60 96 48 86Z" fill="url(#flame)"/>
+    <!-- fins -->
+    <path d="M38 66 L24 90 L44 82Z" fill="#5b2a9e"/>
+    <path d="M82 66 L96 90 L76 82Z" fill="#5b2a9e"/>
+    <!-- plum body -->
+    <path d="M60 14 C84 18 92 44 88 64 C85 80 74 90 60 90 C46 90 35 80 32 64 C28 44 36 18 60 14Z" fill="url(#plum)"/>
+    <!-- seam -->
+    <path d="M60 18 C54 38 54 70 60 88" fill="none" stroke="#3a1270" stroke-width="2" opacity="0.35"/>
+    <!-- leaf + stem -->
+    <path d="M60 15 L60 6" stroke="#5b3a1e" stroke-width="3" stroke-linecap="round"/>
+    <path d="M61 9 C70 0 82 4 84 8 C76 14 66 14 61 9Z" fill="#4fd17a"/>
+    <!-- window -->
+    <circle cx="60" cy="48" r="11" fill="#1b1647" stroke="#e9e3ff" stroke-width="4"/>
+    <circle cx="56" cy="44" r="3.5" fill="#39d5ff"/>
+  </g>
+</svg>
